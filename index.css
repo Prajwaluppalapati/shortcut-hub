@@ -63,9 +63,13 @@ nav a:hover{
     justify-content: right;
     padding-right: 2%;
     display: flex;
+    flex-direction: row;
+    gap: 25px;
     width: 50%;
 }
 
+
+/* Starting section */
 .index_main_cnt{
     font-family: "Sora", sans-serif;
     width: 98%;
@@ -82,7 +86,7 @@ nav a:hover{
 
 .index_main_left_cnt h1{
     font-size: 70px;
-    margin-top: 10%;
+    margin-top: 13%;
 }
 
 .index_main_left_cnt a{
@@ -90,7 +94,16 @@ nav a:hover{
     padding: 1% 2% 1% 2%;
     text-decoration: none;
     color: black;
-    font-weight
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: background 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
+
+.index_main_left_cnt a:hover{
+    background: rgb(0, 76, 255);
+    color: white;
+    font-size: 22px;
 }
 
 .index_main_right_cnt{
@@ -99,7 +112,8 @@ nav a:hover{
     display: grid;
     overflow: hidden;
     background: url('blue grid.png');
-    background-size: 400px;
+    background-position: right -20px;
+    background-size: 500px;
     background-position: right;
 }
 
@@ -107,4 +121,10 @@ nav a:hover{
     width: 110%;
     margin-top: -50px;
     margin-left: -30px;
+}
+
+/* About section */
+
+.index_about_cnt{
+    
 }
