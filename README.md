@@ -1,7 +1,37 @@
 # shortcut-hub
 Learn Keyboard shortcuts using this website
-For the first ship I created the landing page and here are the features of it
+For the first ship I created the landing page and here are the details of it
 
-The landing page introduces users to Shortcut Hub and clearly explains what the platform is about. It presents a well-defined problem statement to highlight the need for better focus and productivity while working or coding. The page also provides an overview of the solution offered by the website, helping users understand how it can benefit them.
+# Description
 
-Additionally, the landing page includes feature highlight sections that give a glimpse of what users can expect from the platform. It emphasizes the core concept of improving focus and productivity, making the purpose of the website clear. Finally, it guides users with a call-to-action that encourages them to start using the website.
+Shortcut Hub is a keyboard shortcut learning website designed to help users improve their efficiency and speed while using computers. Instead of relying on repetitive mouse actions, the platform encourages users to master essential keyboard shortcuts that can significantly boost productivity.
+
+The website focuses on making shortcut learning simple and practical by presenting commonly used shortcuts in a clear and structured way. It is especially useful for students, developers, and anyone who spends a lot of time on a computer and wants to work faster.
+
+By combining learning with a focus-driven approach, Shortcut Hub not only teaches shortcuts but also promotes better workflow habits, helping users save time and stay productive.
+
+# How to Try It Out
+
+You can try it here: https://prajwaluppalapati.github.io/shortcut-hub
+
+# Tools Used
+HTML - to make the website.
+CSS - to give a style to the website.
+JavaScript - not yet used, but gonna use it for the next part.
+ChatGPT - only to produce images.
+Pinterest - to look for good UI ideas.
+Fillout - using it to make a form (not deployed yet, gonna deploy it for the next ship).
+
+# Features
+- A landing page that clearly explains the purpose of the platform
+- A defined problem statement highlighting focus-related issues
+- A solution overview that introduces the concept of structured productivity
+- Sections that present the idea of improving focus and work efficiency
+- A call-to-action that encourages users to start using the platform
+
+# Demo
+
+To experience the website, open it in your browser and scroll through it to know about it.
+
+# Future Improvements
+For the second ship am gonna go the main tool
