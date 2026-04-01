@@ -2,7 +2,8 @@
 <head>
   <link rel="stylesheet" href="main.css">
   <title>Shortcut Hub</title>
-   <link rel="icon" href="logo.png" type="image/x-icon"><!-- Temporary logo -->
+   <link rel="icon" href="logo.png" type="image/x-icon">
+   <script src="https://kit.fontawesome.com/e7dfe44f3e.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="keyboard_rect">
@@ -27,7 +28,7 @@
     </div>
 
     <div class="key_row_2">
-        <div class="number_sign_keys_1" id="~">~ <br> `</div>
+        <div class="number_sign_keys_1" id="backquote">~ <br> `</div>
         <div class="number_sign_keys" id="1">! <br> 1</div>
         <div class="number_sign_keys" id="2">@ <br> 2</div>
         <div class="number_sign_keys" id="3"># <br> 3</div>
@@ -38,13 +39,13 @@
         <div class="number_sign_keys" id="8">* <br> 8</div>
         <div class="number_sign_keys" id="9">( <br> 9</div>
         <div class="number_sign_keys" id="0">) <br> 0</div>
-        <div class="number_sign_keys" id="underscore" style="font-size: 15px;"><p>_ <br> -</p></div>
-        <div class="number_sign_keys" id="plus" style="font-size: 11px; font-weight: 550;">+ <br> =</div>
-        <div class="number_sign_keys" id="backspace" style="text-align: right; font-size: 10px; width: 58px;">Backspace</div>
+        <div class="number_sign_keys" id="minus" style="font-size: 15px;"><p>_ <br> -</p></div>
+        <div class="number_sign_keys" id="equal" style="font-size: 11px; font-weight: 550;">+ <br> =</div>
+        <div class="number_sign_keys" id="backspace" style="justify-content: flex-end; display: flex; align-items: center; font-size: 10px; width: 55px; padding-right: 3px;">Backspace</div>
     </div>
 
     <div class="key_row_1">
-      <div id="tab" class="letters_box" style="width: 50px; font-size: 10px;">Tab</div>
+      <div id="tab" class="letters_box" style="width: 50px; display: flex; align-items: center; font-size: 10px;">Tab</div>
       <div id="q" class="letters_box">Q</div>
       <div id="w" class="letters_box">W</div>
       <div id="e" class="letters_box">E</div>
@@ -61,50 +62,52 @@
     </div>
 
      <div class="key_row_1">
-      <div id="tab" class="letters_box" style="width: 60px; font-size: 10px;">CapsLk</div>
-      <div id="q" class="letters_box">A</div>
-      <div id="w" class="letters_box">S</div>
-      <div id="e" class="letters_box">D</div>
-      <div id="r" class="letters_box">F</div>
-      <div id="y" class="letters_box">G</div>
-      <div id="u" class="letters_box">H</div>
-      <div id="i" class="letters_box">J</div>
-      <div id="o" class="letters_box">K</div>
-      <div id="p" class="letters_box">L</div>
-      <div id="flower_brk_left" class="letters_box">: <br> ; </div>
-      <div id="flower_brk_right" class="letters_box">" <br> '</div>
-      <div id="slash" class="letters_box" style="width: 67px; text-align: right; font-size: 10px;">Enter</div>
+      <div id="capslock" class="letters_box" style="width: 60px; display: flex; align-items: center; font-size: 10px;">CapsLk</div>
+      <div id="a" class="letters_box">A</div>
+      <div id="s" class="letters_box">S</div>
+      <div id="d" class="letters_box">D</div>
+      <div id="f" class="letters_box">F</div>
+      <div id="g" class="letters_box">G</div>
+      <div id="h" class="letters_box">H</div>
+      <div id="j" class="letters_box">J</div>
+      <div id="k" class="letters_box">K</div>
+      <div id="l" class="letters_box">L</div>
+      <div id="colen" class="letters_box">: <br> ; </div>
+      <div id="inverted_commas" class="letters_box">" <br> '</div>
+      <div id="enter" class="letters_box" style="width: 64px; justify-content: flex-end; display: flex; align-items: center; font-size: 10px;  padding-right: 5px;">Enter</div>
     </div>
 
      <div class="key_row_1">
-      <div id="tab" class="letters_box" style="width: 80px; font-size: 10px;">Shift</div>
-      <div id="q" class="letters_box">Z</div>
-      <div id="w" class="letters_box">X</div>
-      <div id="e" class="letters_box">C</div>
-      <div id="u" class="letters_box">V</div>
-      <div id="i" class="letters_box">B</div>
-      <div id="o" class="letters_box">N</div>
-      <div id="p" class="letters_box">M</div>
-      <div id="flower_brk_left" class="letters_box">< <br> , </div>
-      <div id="flower_brk_right" class="letters_box">> <br> .</div>
-      <div id="flower_brk_right" class="letters_box">? <br> /</div>
-      <div id="slash" class="letters_box" style="width: 86px; text-align: right; font-size: 10px;">Shift</div>
+      <div id="left_shift" class="letters_box" style="width: 80px; display: flex; align-items: center; font-size: 10px;">Shift</div>
+      <div id="z" class="letters_box">Z</div>
+      <div id="x" class="letters_box">X</div>
+      <div id="c" class="letters_box">C</div>
+      <div id="v" class="letters_box">V</div>
+      <div id="b" class="letters_box">B</div>
+      <div id="n" class="letters_box">N</div>
+      <div id="m" class="letters_box">M</div>
+      <div id="left_symbol" class="letters_box">< <br> , </div>
+      <div id="right_symbol" class="letters_box">> <br> .</div>
+      <div id="question_mark" class="letters_box">? <br> /</div>
+      <div id="right_shift" class="letters_box" style="width: 86px; justify-content: flex-end; display: flex; align-items: center; font-size: 10px;">Shift</div>
     </div>
 
       <div class="key_row_1">
-      <div id="tab" class="letters_box" style="width: 40px; font-size: 10px;">Ctrl</div>
-      <div id="q" class="letters_box">Fn</div>
-      <div id="w" class="letters_box">S</div>
-      <div id="e" class="letters_box">D</div>
-      <div id="r" class="letters_box">F</div>
-      <div id="y" class="letters_box">G</div>
-      <div id="u" class="letters_box">H</div>
-      <div id="i" class="letters_box">J</div>
-      <div id="o" class="letters_box">K</div>
-      <div id="p" class="letters_box">L</div>
-      <div id="flower_brk_left" class="letters_box">: <br> ; </div>
-      <div id="flower_brk_right" class="letters_box">" <br> '</div>
-      <div id="slash" class="letters_box" style="width: 67px; text-align: right; font-size: 10px;">Enter</div>
+      <div id="left_ctrl" class="letters_box" style="width: 40px; font-size: 10px; display: flex; align-items: center;">Ctrl</div>
+      <div id="fn" class="letters_box" style="display: flex; align-items: center; font-size: 10px;">Fn</div>
+      <div id="windows" class="letters_box" style="display: grid; place-items: center; font-size: 13px;"><i class="fa-brands fa-microsoft"></i></div>
+      <div id="left_alt" class="letters_box" style="display: flex; align-items: center; font-size: 10px;">Alt</div>
+      <div id="space" class="letters_box" style="width: 187px"></div>
+      <div id="right_alt" class="letters_box" style="display: flex; align-items: center; font-size: 10px;">Alt</div>
+      <div id="right_ctrl" class="letters_box" style="display: flex; align-items: center; font-size: 10px;">Ctrl</div>
+      <div class="arrow_keys_cnt"> 
+        <div id="left_arrow" class="letters_box" style="display: grid; place-items: center; font-size: 17px; width: 35.5px;"><i class="fa-solid fa-caret-left"></i></div>
+        <div class="upwown_arrow_cnt">
+          <div id="up_arrow" class="uparrow"><i class="fa-solid fa-caret-up"></i></div>
+          <div id="down_arrow" class="downarrow"><i class="fa-solid fa-caret-down"></i></div>
+        </div>
+        <div id="right_arrow" class="letters_box" style="display: grid; place-items: center; font-size: 17px; width: 35.5px;"><i class="fa-solid fa-caret-right"></i></div>
+      </div>
     </div>
   </div>
 
