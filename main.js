@@ -224,3 +224,33 @@ document.addEventListener("keyup", (e) => {
     printscreen.style.backgroundColor = "";
   }
 });
+
+//insert 
+const insert = document.getElementById("insert");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Insert") {
+    insert.style.backgroundColor = "rgb(0, 255, 0)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "Insert") {
+    insert.style.backgroundColor = "";
+  }
+});
+
+//delete
+const del = document.getElementById("delete");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Delete") {
+    del.style.backgroundColor = "rgb(0, 255, 0)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "Delete") {
+    del.style.backgroundColor = "";
+  }
+});
