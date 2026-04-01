@@ -656,9 +656,555 @@ document.addEventListener("keydown", (e) => {
 
 document.addEventListener("keyup", (e) => {
   if (e.code === "BracketRight") {
-     bracket_left.style.backgroundColor = "";
+     bracket_right.style.backgroundColor = "";
   }
 });
+
+//backslash and vertical line 
+const slash = document.getElementById("slash");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Backslash") {
+   slash.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Backslash") {
+     slash.style.backgroundColor = "";
+  }
+});
+
+//capslock
+const capslock = document.getElementById("capslock");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "CapsLock") {
+   capslock.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "CapsLock") {
+     capslock.style.backgroundColor = "";
+  }
+});
+
+//A
+const a = document.getElementById("a");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyA") {
+   a.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyA") {
+     a.style.backgroundColor = "";
+  }
+});
+
+//S
+const s = document.getElementById("s");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyS") {
+   s.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyS") {
+     s.style.backgroundColor = "";
+  }
+});
+
+//D
+const d = document.getElementById("d");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyD") {
+   d.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyD") {
+     d.style.backgroundColor = "";
+  }
+});
+
+//F
+const f = document.getElementById("f");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyF") {
+   f.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyF") {
+     f.style.backgroundColor = "";
+  }
+});
+
+//G
+const g = document.getElementById("g");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyG") {
+   g.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyG") {
+     g.style.backgroundColor = "";
+  }
+});
+
+//H
+const h = document.getElementById("h");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyH") {
+   h.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyH") {
+     h.style.backgroundColor = "";
+  }
+});
+
+//J
+const j = document.getElementById("j");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyJ") {
+   j.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyJ") {
+     j.style.backgroundColor = "";
+  }
+});
+
+//K
+const k = document.getElementById("k");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyK") {
+   k.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyK") {
+     k.style.backgroundColor = "";
+  }
+});
+
+//L
+const l = document.getElementById("l");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyL") {
+   l.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyL") {
+     l.style.backgroundColor = "";
+  }
+});
+
+//Colon and semi colon
+const colon = document.getElementById("colon");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Semicolon") {
+   colon.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Semicolon") {
+     colon.style.backgroundColor = "";
+  }
+});
+
+//double inverted commas and single inverted commas
+const inverted_commas = document.getElementById("inverted_commas");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Quote") {
+   inverted_commas.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Quote") {
+     inverted_commas.style.backgroundColor = "";
+  }
+});
+
+//Enter key
+const enter = document.getElementById("enter");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Enter") {
+   enter.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Enter") {
+     enter.style.backgroundColor = "";
+  }
+});
+
+//Left shift
+const left_shift = document.getElementById("left_shift");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ShiftLeft") {
+   left_shift.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ShiftLeft") {
+     left_shift.style.backgroundColor = "";
+  }
+});
+
+//Z
+const z = document.getElementById("z");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyZ") {
+   z.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyZ") {
+     z.style.backgroundColor = "";
+  }
+});
+
+//X
+const x = document.getElementById("x");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyX") {
+   x.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyX") {
+     x.style.backgroundColor = "";
+  }
+});
+
+//C
+const c = document.getElementById("c");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyC") {
+   c.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyC") {
+     c.style.backgroundColor = "";
+  }
+});
+
+//V
+const v = document.getElementById("v");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyV") {
+   v.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyV") {
+     v.style.backgroundColor = "";
+  }
+});
+
+//B
+const b = document.getElementById("b");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyB") {
+   b.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyB") {
+     b.style.backgroundColor = "";
+  }
+});
+
+//N
+const n = document.getElementById("n");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyN") {
+   n.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyN") {
+     n.style.backgroundColor = "";
+  }
+});
+
+//M
+const m = document.getElementById("m");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyM") {
+   m.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyM") {
+     m.style.backgroundColor = "";
+  }
+});
+
+//greater than and comma
+const left_symbol = document.getElementById("left_symbol");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Comma") {
+   left_symbol.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Comma") {
+     left_symbol.style.backgroundColor = "";
+  }
+});
+
+//lesser than and period
+const right_symbol = document.getElementById("right_symbol");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Period") {
+   right_symbol.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Period") {
+     right_symbol.style.backgroundColor = "";
+  }
+});
+
+//question make and slash
+const question_mark = document.getElementById("question_mark");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Slash") {
+   question_mark.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Slash") {
+     question_mark.style.backgroundColor = "";
+  }
+});
+
+//Right shift
+const right_shift = document.getElementById("right_shift");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ShiftRight") {
+   right_shift.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ShiftRight") {
+     right_shift.style.backgroundColor = "";
+  }
+});
+
+//left Ctrl
+const left_ctrl = document.getElementById("left_ctrl");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ControlLeft") {
+   left_ctrl.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ControlLeft") {
+     left_ctrl.style.backgroundColor = "";
+  }
+});
+
+//function key 
+
+//Windows key
+const windows = document.getElementById("windows");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "MetaLeft") {
+   windows.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "MetaLeft") {
+     windows.style.backgroundColor = "";
+  }
+});
+
+//left alt
+const left_alt = document.getElementById("left_alt");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "AltLeft") {
+   left_alt.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "AltLeft") {
+     left_alt.style.backgroundColor = "";
+  }
+});
+
+//Space
+const space = document.getElementById("space");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Space") {
+   space.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Space") {
+      space.style.backgroundColor = "";
+  }
+});
+
+
+//right alt
+const right_alt = document.getElementById("right_alt");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "AltRight") {
+   right_alt.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "AltRight") {
+      right_alt.style.backgroundColor = "";
+  }
+});
+
+//Right control
+const right_ctrl = document.getElementById("right_ctrl");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ControlRight") {
+   right_ctrl.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ControlRight") {
+      right_ctrl.style.backgroundColor = "";
+  }
+});
+
+//left arrow
+const left_arrow = document.getElementById("left_arrow");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ArrowLeft") {
+   left_arrow.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ArrowLeft") {
+      left_arrow.style.backgroundColor = "";
+  }
+});
+
+//left arrow
+const up_arrow = document.getElementById("up_arrow");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ArrowUp") {
+   up_arrow.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ArrowUp") {
+      up_arrow.style.backgroundColor = "";
+  }
+});
+
+//left arrow
+const down_arrow = document.getElementById("down_arrow");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ArrowDown") {
+   down_arrow.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ArrowDown") {
+      down_arrow.style.backgroundColor = "";
+  }
+});
+
+//left arrow
+const right_arrow = document.getElementById("right_arrow");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ArrowRight") {
+   right_arrow.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ArrowRight") {
+      right_arrow.style.backgroundColor = "";
+  }
+});
+
+
+
 
 
 
