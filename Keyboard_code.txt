@@ -1,0 +1,1437 @@
+HTML
+
+  <div class="keyboard_rect">
+
+    <div class="key_row_1">
+      <div id="esc" class="func_box">Esc</div>
+      <div id="f1" class="func_box">F1</div>
+      <div id="f2" class="func_box">F2</div>
+      <div id="f3" class="func_box">F3</div>
+      <div id="f4" class="func_box">F4</div>
+      <div id="f5" class="func_box">F5</div>
+      <div id="f6" class="func_box">F6</div>
+      <div id="f7" class="func_box">F7</div>
+      <div id="f8" class="func_box">F8</div>
+      <div id="f9" class="func_box">F9</div>
+      <div id="f10" class="func_box">F10</div>
+      <div id="f11" class="func_box">F11</div>
+      <div id="f12" class="func_box">F12</div>
+      <div id="prtsc" class="func_box">PrtSc</div>
+      <div id="insert" class="func_box">Insert</div>
+      <div id="delete" class="func_box">Delete</div>
+    </div>
+
+    <div class="key_row_2">
+        <div class="number_sign_keys_1" id="backquote">~ <br> `</div>
+        <div class="number_sign_keys" id="1">! <br> 1</div>
+        <div class="number_sign_keys" id="2">@ <br> 2</div>
+        <div class="number_sign_keys" id="3"># <br> 3</div>
+        <div class="number_sign_keys" id="4">$ <br> 4</div>
+        <div class="number_sign_keys" id="5">% <br> 5</div>
+        <div class="number_sign_keys" id="6">^ <br> 6</div>
+        <div class="number_sign_keys" id="7">& <br> 7</div>
+        <div class="number_sign_keys" id="8">* <br> 8</div>
+        <div class="number_sign_keys" id="9">( <br> 9</div>
+        <div class="number_sign_keys" id="0">) <br> 0</div>
+        <div class="number_sign_keys" id="minus" style="font-size: 15px;"><p>_ <br> -</p></div>
+        <div class="number_sign_keys" id="equal" style="font-size: 11px; font-weight: 550;">+ <br> =</div>
+        <div class="number_sign_keys" id="backspace" style="justify-content: flex-end; display: flex; align-items: center; font-size: 10px; width: 55px; padding-right: 3px;">Backspace</div>
+    </div>
+
+    <div class="key_row_1">
+      <div id="tab" class="letters_box" style="width: 50px; display: flex; align-items: center; font-size: 10px;">Tab</div>
+      <div id="q" class="letters_box">Q</div>
+      <div id="w" class="letters_box">W</div>
+      <div id="e" class="letters_box">E</div>
+      <div id="r" class="letters_box">R</div>
+      <div id="t" class="letters_box">T</div>
+      <div id="y" class="letters_box">Y</div>
+      <div id="u" class="letters_box">U</div>
+      <div id="i" class="letters_box">I</div>
+      <div id="o" class="letters_box">O</div>
+      <div id="p" class="letters_box">P</div>
+      <div id="flower_brk_left" class="letters_box">{ <br> [ </div>
+      <div id="flower_brk_right" class="letters_box">} <br> ]</div>
+      <div id="slash" class="letters_box" style="width: 38px;">| <br> \</div>
+    </div>
+
+     <div class="key_row_1">
+      <div id="capslock" class="letters_box" style="width: 60px; display: flex; align-items: center; font-size: 10px;">CapsLk</div>
+      <div id="a" class="letters_box">A</div>
+      <div id="s" class="letters_box">S</div>
+      <div id="d" class="letters_box">D</div>
+      <div id="f" class="letters_box">F</div>
+      <div id="g" class="letters_box">G</div>
+      <div id="h" class="letters_box">H</div>
+      <div id="j" class="letters_box">J</div>
+      <div id="k" class="letters_box">K</div>
+      <div id="l" class="letters_box">L</div>
+      <div id="colon" class="letters_box">: <br> ; </div>
+      <div id="inverted_commas" class="letters_box">" <br> '</div>
+      <div id="enter" class="letters_box" style="width: 64px; justify-content: flex-end; display: flex; align-items: center; font-size: 10px;  padding-right: 5px;">Enter</div>
+    </div>
+
+     <div class="key_row_1">
+      <div id="left_shift" class="letters_box" style="width: 80px; display: flex; align-items: center; font-size: 10px;">Shift</div>
+      <div id="z" class="letters_box">Z</div>
+      <div id="x" class="letters_box">X</div>
+      <div id="c" class="letters_box">C</div>
+      <div id="v" class="letters_box">V</div>
+      <div id="b" class="letters_box">B</div>
+      <div id="n" class="letters_box">N</div>
+      <div id="m" class="letters_box">M</div>
+      <div id="left_symbol" class="letters_box">< <br> , </div>
+      <div id="right_symbol" class="letters_box">> <br> .</div>
+      <div id="question_mark" class="letters_box">? <br> /</div>
+      <div id="right_shift" class="letters_box" style="width: 82.5px; justify-content: flex-end; display: flex; align-items: center; font-size: 10px; padding-right: 5px;">Shift</div>
+    </div>
+
+      <div class="key_row_1">
+      <div id="left_ctrl" class="letters_box" style="width: 40px; font-size: 10px; display: flex; align-items: center;">Ctrl</div>
+      <div id="fn" class="letters_box" style="display: flex; align-items: center; font-size: 10px;">Fn</div>
+      <div id="windows" class="letters_box" style="display: grid; place-items: center; font-size: 13px;"><i class="fa-brands fa-microsoft"></i></div>
+      <div id="left_alt" class="letters_box" style="display: flex; align-items: center; font-size: 10px;">Alt</div>
+      <div id="space" class="letters_box" style="width: 187px"></div>
+      <div id="right_alt" class="letters_box" style="display: flex; align-items: center; font-size: 10px;">Alt</div>
+      <div id="right_ctrl" class="letters_box" style="display: flex; align-items: center; font-size: 10px;">Ctrl</div>
+      <div class="arrow_keys_cnt"> 
+        <div id="left_arrow" class="letters_box" style="display: grid; place-items: center; font-size: 17px; width: 35.5px;"><i class="fa-solid fa-caret-left"></i></div>
+        <div class="upwown_arrow_cnt">
+          <div id="up_arrow" class="uparrow"><i class="fa-solid fa-caret-up"></i></div>
+          <div id="down_arrow" class="downarrow"><i class="fa-solid fa-caret-down"></i></div>
+        </div>
+        <div id="right_arrow" class="letters_box" style="display: grid; place-items: center; font-size: 17px; width: 35.5px;"><i class="fa-solid fa-caret-right"></i></div>
+      </div>
+    </div>
+  </div><!-- End of keyboard cnt here -->
+
+
+  CSS
+
+  .keyboard_rect{
+    width: 99%;
+    background: rgb(215, 215, 215);
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: auto;
+}
+
+.key_row_1{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    gap: 5px;
+}
+
+.func_box{
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 20px;
+    background: white;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+
+.key_row_2{
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    gap: 5px;
+}
+
+.number_sign_keys_1{
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    background: white;
+    font-family: sans-serif;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.number_sign_keys{
+    height: 30px;
+    width: 30px;
+    font-size: 10px;
+    background: white;
+    font-family: sans-serif;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.number_sign_keys p{
+    margin-top: -10px;
+}
+
+.letters_box{
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    background: white;
+    font-family: sans-serif;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.arrow_keys_cnt{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.upwown_arrow_cnt{
+    height: 32px;
+    width: 35.5px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding: 2px;
+    border-radius: 3px;
+    gap: 3px;
+}
+
+.uparrow{
+    height: 15.5px;
+    background: white;
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-top: -2px;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+}
+
+.downarrow{
+    height: 15.5px;
+    background: white;
+    width: 100%;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+}
+
+JavaScript
+
+document.addEventListener("keydown", (e) => {
+  // Block Ctrl shortcuts
+  if (e.ctrlKey) {
+    e.preventDefault();
+  }
+
+  // Block specific keys
+  const blockedKeys = [
+    "F1", "F5", "F12",
+    "Tab", "Escape"
+  ];
+
+  if (blockedKeys.includes(e.key)) {
+    e.preventDefault();
+  }
+});
+
+//Escape
+const esc = document.getElementById("esc");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    esc.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key=== "Escape") {
+    esc.style.backgroundColor = "";
+  }
+});
+
+//F1
+const f1 = document.getElementById("f1");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F1") {
+    f1.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "F1") {
+    f1.style.backgroundColor = "";
+  }
+});
+
+//F2
+const f2 = document.getElementById("f2");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F2") {
+    f2.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "F2") {
+    f2.style.backgroundColor = "";
+  }
+});
+
+//F3
+const f3 = document.getElementById("f3");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F3") {
+    f3.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "F3") {
+    f3.style.backgroundColor = "";
+  }
+});
+
+//F4
+const f4 = document.getElementById("f4");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F4") {
+    f4.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "F4") {
+    f4.style.backgroundColor = "";
+  }
+});
+
+//F5
+const f5 = document.getElementById("f5");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F5") {
+    f5.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "F5") {
+    f5.style.backgroundColor = "";
+  }
+});
+
+//F6
+const f6 = document.getElementById("f6");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F6") {
+    f6.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "F6") {
+    f6.style.backgroundColor = "";
+  }
+});
+
+//F7
+const f7 = document.getElementById("f7");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F7") {
+    f7.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "F7") {
+    f7.style.backgroundColor = "";
+  }
+});
+
+//F8
+const f8 = document.getElementById("f8");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F8") {
+    f8.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "F8") {
+    f8.style.backgroundColor = "";
+  }
+});
+
+//F9
+const f9 = document.getElementById("f9");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F9") {
+    f9.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "F9") {
+    f9.style.backgroundColor = "";
+  }
+});
+
+//F10
+const f10 = document.getElementById("f10");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F10") {
+    f10.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "F10") {
+    f10.style.backgroundColor = "";
+  }
+});
+
+//F11
+const f11 = document.getElementById("f11");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F11") {
+    f11.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "F11") {
+    f11.style.backgroundColor = "";
+  }
+});
+
+//F12
+const f12= document.getElementById("f12");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "F12") {
+    f12.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "F12") {
+    f12.style.backgroundColor = "";
+  }
+});
+
+//Print Screen
+const printscreen = document.getElementById("prtsc");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "PrintScreen") {
+    printscreen.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "PrintScreen") {
+    printscreen.style.backgroundColor = "";
+  }
+});
+
+//insert 
+const insert = document.getElementById("insert");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Insert") {
+    insert.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "Insert") {
+    insert.style.backgroundColor = "";
+  }
+});
+
+//delete
+const del = document.getElementById("delete");
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Delete") {
+    del.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "Delete") {
+    del.style.backgroundColor = "";
+  }
+});
+
+//backquote
+const backquote = document.getElementById("backquote");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Backquote") {
+    backquote.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Backquote") {
+    backquote.style.backgroundColor = "";
+  }
+});
+
+//Number one
+const one = document.getElementById("1");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Digit1") {
+    one.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Digit1") {
+    one.style.backgroundColor = "";
+  }
+});
+
+//Number two
+const two = document.getElementById("2");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Digit2") {
+    two.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Digit2") {
+    two.style.backgroundColor = "";
+  }
+});
+
+//Number three
+const three = document.getElementById("3");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Digit3") {
+    three.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Digit3") {
+    three.style.backgroundColor = "";
+  }
+});
+
+//Number four
+const four = document.getElementById("4");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Digit4") {
+    four.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Digit4") {
+    four.style.backgroundColor = "";
+  }
+});
+
+//Number five
+const five = document.getElementById("5");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Digit5") {
+    five.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Digit5") {
+    five.style.backgroundColor = "";
+  }
+});
+
+//Number six
+const six = document.getElementById("6");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Digit6") {
+    six.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Digit6") {
+    six.style.backgroundColor = "";
+  }
+});
+
+//Number seven
+const seven = document.getElementById("7");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Digit7") {
+    seven.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Digit7") {
+    seven.style.backgroundColor = "";
+  }
+});
+
+//Number eight
+const eight = document.getElementById("8");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Digit8") {
+    eight.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Digit8") {
+    eight.style.backgroundColor = "";
+  }
+});
+
+//Number nine
+const nine = document.getElementById("9");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Digit9") {
+    nine.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Digit9") {
+    nine.style.backgroundColor = "";
+  }
+});
+
+//Number zero
+const zero = document.getElementById("0");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Digit0") {
+    zero.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Digit0") {
+    zero.style.backgroundColor = "";
+  }
+});
+
+//Underscore and minus
+const minus = document.getElementById("minus");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Minus") {
+    minus.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Minus") {
+    minus.style.backgroundColor = "";
+  }
+});
+
+//Plus and equal to
+const equal = document.getElementById("equal");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Equal") {
+    equal.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Equal") {
+    equal.style.backgroundColor = "";
+  }
+});
+
+//Backspace
+const backsp = document.getElementById("backspace");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Backspace") {
+    backsp.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Backspace") {
+    backsp.style.backgroundColor = "";
+  }
+});
+
+//Tab
+const keytab = document.getElementById("tab");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Tab") {
+   keytab.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Tab") {
+     keytab.style.backgroundColor = "";
+  }
+});
+
+//Q
+const q = document.getElementById("q");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyQ") {
+   q.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyQ") {
+     q.style.backgroundColor = "";
+  }
+});
+
+//W
+const w = document.getElementById("w");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyW") {
+   w.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyW") {
+     w.style.backgroundColor = "";
+  }
+});
+
+//Q
+const letter_e = document.getElementById("e");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyE") {
+   letter_e.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyE") {
+     letter_e.style.backgroundColor = "";
+  }
+});
+
+//R
+const r = document.getElementById("r");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyR") {
+   r.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyR") {
+     r.style.backgroundColor = "";
+  }
+});
+
+//T
+const t = document.getElementById("t");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyT") {
+   t.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyT") {
+     t.style.backgroundColor = "";
+  }
+});
+
+//Y
+const y = document.getElementById("y");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyY") {
+   y.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyY") {
+     y.style.backgroundColor = "";
+  }
+});
+
+//U
+const u = document.getElementById("u");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyU") {
+   u.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyU") {
+     u.style.backgroundColor = "";
+  }
+});
+
+//I
+const i = document.getElementById("i");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyI") {
+   i.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyI") {
+     i.style.backgroundColor = "";
+  }
+});
+
+//O
+const o = document.getElementById("o");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyO") {
+   o.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyO") {
+     o.style.backgroundColor = "";
+  }
+});
+
+//P
+const p = document.getElementById("p");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyP") {
+   p.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyP") {
+     p.style.backgroundColor = "";
+  }
+});
+
+//flower bracket and square bracket left side
+const bracket_left = document.getElementById("flower_brk_left");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "BracketLeft") {
+   bracket_left.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "BracketLeft") {
+     bracket_left.style.backgroundColor = "";
+  }
+});
+
+//flower bracket and square bracket right side
+const bracket_right = document.getElementById("flower_brk_right");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "BracketRight") {
+   bracket_right.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "BracketRight") {
+     bracket_right.style.backgroundColor = "";
+  }
+});
+
+//backslash and vertical line 
+const slash = document.getElementById("slash");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Backslash") {
+   slash.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Backslash") {
+     slash.style.backgroundColor = "";
+  }
+});
+
+//capslock
+const capslock = document.getElementById("capslock");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "CapsLock") {
+   capslock.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "CapsLock") {
+     capslock.style.backgroundColor = "";
+  }
+});
+
+//A
+const a = document.getElementById("a");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyA") {
+   a.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyA") {
+     a.style.backgroundColor = "";
+  }
+});
+
+//S
+const s = document.getElementById("s");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyS") {
+   s.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyS") {
+     s.style.backgroundColor = "";
+  }
+});
+
+//D
+const d = document.getElementById("d");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyD") {
+   d.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyD") {
+     d.style.backgroundColor = "";
+  }
+});
+
+//F
+const f = document.getElementById("f");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyF") {
+   f.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyF") {
+     f.style.backgroundColor = "";
+  }
+});
+
+//G
+const g = document.getElementById("g");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyG") {
+   g.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyG") {
+     g.style.backgroundColor = "";
+  }
+});
+
+//H
+const h = document.getElementById("h");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyH") {
+   h.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyH") {
+     h.style.backgroundColor = "";
+  }
+});
+
+//J
+const j = document.getElementById("j");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyJ") {
+   j.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyJ") {
+     j.style.backgroundColor = "";
+  }
+});
+
+//K
+const k = document.getElementById("k");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyK") {
+   k.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyK") {
+     k.style.backgroundColor = "";
+  }
+});
+
+//L
+const l = document.getElementById("l");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyL") {
+   l.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyL") {
+     l.style.backgroundColor = "";
+  }
+});
+
+//Colon and semi colon
+const colon = document.getElementById("colon");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Semicolon") {
+   colon.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Semicolon") {
+     colon.style.backgroundColor = "";
+  }
+});
+
+//double inverted commas and single inverted commas
+const inverted_commas = document.getElementById("inverted_commas");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Quote") {
+   inverted_commas.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Quote") {
+     inverted_commas.style.backgroundColor = "";
+  }
+});
+
+//Enter key
+const enter = document.getElementById("enter");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Enter") {
+   enter.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Enter") {
+     enter.style.backgroundColor = "";
+  }
+});
+
+//Left shift
+const left_shift = document.getElementById("left_shift");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ShiftLeft") {
+   left_shift.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ShiftLeft") {
+     left_shift.style.backgroundColor = "";
+  }
+});
+
+//Z
+const z = document.getElementById("z");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyZ") {
+   z.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyZ") {
+     z.style.backgroundColor = "";
+  }
+});
+
+//X
+const x = document.getElementById("x");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyX") {
+   x.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyX") {
+     x.style.backgroundColor = "";
+  }
+});
+
+//C
+const c = document.getElementById("c");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyC") {
+   c.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyC") {
+     c.style.backgroundColor = "";
+  }
+});
+
+//V
+const v = document.getElementById("v");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyV") {
+   v.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyV") {
+     v.style.backgroundColor = "";
+  }
+});
+
+//B
+const b = document.getElementById("b");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyB") {
+   b.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyB") {
+     b.style.backgroundColor = "";
+  }
+});
+
+//N
+const n = document.getElementById("n");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyN") {
+   n.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyN") {
+     n.style.backgroundColor = "";
+  }
+});
+
+//M
+const m = document.getElementById("m");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "KeyM") {
+   m.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "KeyM") {
+     m.style.backgroundColor = "";
+  }
+});
+
+//greater than and comma
+const left_symbol = document.getElementById("left_symbol");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Comma") {
+   left_symbol.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Comma") {
+     left_symbol.style.backgroundColor = "";
+  }
+});
+
+//lesser than and period
+const right_symbol = document.getElementById("right_symbol");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Period") {
+   right_symbol.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Period") {
+     right_symbol.style.backgroundColor = "";
+  }
+});
+
+//question make and slash
+const question_mark = document.getElementById("question_mark");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Slash") {
+   question_mark.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Slash") {
+     question_mark.style.backgroundColor = "";
+  }
+});
+
+//Right shift
+const right_shift = document.getElementById("right_shift");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ShiftRight") {
+   right_shift.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ShiftRight") {
+     right_shift.style.backgroundColor = "";
+  }
+});
+
+//left Ctrl
+const left_ctrl = document.getElementById("left_ctrl");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ControlLeft") {
+   left_ctrl.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ControlLeft") {
+     left_ctrl.style.backgroundColor = "";
+  }
+});
+
+//function key 
+
+//Windows key
+const windows = document.getElementById("windows");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "MetaLeft") {
+   windows.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "MetaLeft") {
+     windows.style.backgroundColor = "";
+  }
+});
+
+//left alt
+const left_alt = document.getElementById("left_alt");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "AltLeft") {
+   left_alt.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "AltLeft") {
+     left_alt.style.backgroundColor = "";
+  }
+});
+
+//Space
+const space = document.getElementById("space");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "Space") {
+   space.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "Space") {
+      space.style.backgroundColor = "";
+  }
+});
+
+
+//right alt
+const right_alt = document.getElementById("right_alt");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "AltRight") {
+   right_alt.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "AltRight") {
+      right_alt.style.backgroundColor = "";
+  }
+});
+
+//Right control
+const right_ctrl = document.getElementById("right_ctrl");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ControlRight") {
+   right_ctrl.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ControlRight") {
+      right_ctrl.style.backgroundColor = "";
+  }
+});
+
+//left arrow
+const left_arrow = document.getElementById("left_arrow");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ArrowLeft") {
+   left_arrow.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ArrowLeft") {
+      left_arrow.style.backgroundColor = "";
+  }
+});
+
+//left arrow
+const up_arrow = document.getElementById("up_arrow");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ArrowUp") {
+   up_arrow.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ArrowUp") {
+      up_arrow.style.backgroundColor = "";
+  }
+});
+
+//left arrow
+const down_arrow = document.getElementById("down_arrow");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ArrowDown") {
+   down_arrow.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ArrowDown") {
+      down_arrow.style.backgroundColor = "";
+  }
+});
+
+//left arrow
+const right_arrow = document.getElementById("right_arrow");
+
+document.addEventListener("keydown", (e) => {
+  if (e.code === "ArrowRight") {
+   right_arrow.style.backgroundColor = "rgb(115, 222, 255)";
+  }
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.code === "ArrowRight") {
+      right_arrow.style.backgroundColor = "";
+  }
+});
+
+
+
+
+
+
+
