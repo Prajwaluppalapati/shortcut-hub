@@ -8,7 +8,7 @@ body{
     padding: 0.7%;
     position: fixed;
     background: rgb(255,255,255);
-    border-bottom: 2px solid rgb(203, 203, 203);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.135);
     display: flex;
     flex-direction: row;
 }
@@ -51,7 +51,8 @@ body{
 .mainpage_nav_middle input{
     width: 90%;
     border: none;
-    background: rgb(205, 205, 205);
+    border: 1px solid rgba(0, 0, 0, 0.511);
+    background: rgb(240,244,249);
     height: 30px;
     border-radius: 30px;
     padding-left: 10px;
@@ -90,6 +91,7 @@ body{
     margin-bottom: auto;
     width: 8%;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .profile_dropdown{
@@ -99,6 +101,28 @@ body{
     margin-top: 50px;
     padding: 1%;
     border: 1px solid rgba(128, 128, 128, 0.587);
+    text-align: left;
+    font-family: sans-serif;
+    padding-bottom: 0;
+}
+
+.user_email{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.logout_btn{
+    margin-top: 0;
+    color: rgba(255, 0, 0, 0.692);
+    text-align: center;
+    padding: 2%;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.logout_btn:hover{
+    background: rgba(255, 0, 0, 0.256);
 }
 
 .profile_dropdown.show {
@@ -111,6 +135,7 @@ body{
    display: flex;
    flex-direction: row;
 }
+
 
 
 

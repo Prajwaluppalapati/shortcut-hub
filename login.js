@@ -6,7 +6,8 @@ import {
   signInWithEmailAndPassword,
   GoogleAuthProvider,
   signInWithPopup,
-  onAuthStateChanged
+  onAuthStateChanged,
+  updateProfile
 } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 
 const firebaseConfig = {
@@ -23,24 +24,38 @@ const auth = getAuth(app);
 
 // SIGNUP
 window.signup = () => {
-  createUserWithEmailAndPassword(
-    auth,
-    email.value,
-    password.value
-  )
-  .then(() => alert("Account created"))
-  .catch(err => alert(err.message));
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  if (!name) {
+    alert("Please enter your name");
+    return;
+  }
+
+  createUserWithEmailAndPassword(auth, email, password)
+    .then(async (userCredential) => {
+      const user = userCredential.user;
+
+      // ✅ Save name
+      await updateProfile(user, {
+        displayName: name
+      });
+
+      alert("Account created!");
+      window.location.href = "main.html";
+    })
+    .catch(err => alert(err.message));
 };
 
 // LOGIN
 window.login = () => {
-  signInWithEmailAndPassword(
-    auth,
-    email.value,
-    password.value
-  )
-  .then(() => window.location.href = "main.html")
-  .catch(err => alert(err.message));
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  signInWithEmailAndPassword(auth, email, password)
+    .then(() => window.location.href = "main.html")
+    .catch(err => alert(err.message));
 };
 
 // GOOGLE LOGIN
@@ -52,7 +67,11 @@ window.googleLogin = () => {
     .catch(err => alert(err.message));
 };
 
-// SESSION CHECK
+// ✅ AUTO REDIRECT IF ALREADY LOGGED IN
 onAuthStateChanged(auth, (user) => {
-  console.log(user ? "Logged in" : "Not logged in");
+  if (user) {
+    window.location.href = "main.html";
+  } else {
+    console.log("Not logged in");
+  }
 });

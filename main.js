@@ -20,18 +20,40 @@ const auth = getAuth(app);
 
 onAuthStateChanged(auth, (user) => {
   if (user) {
-    const name = user.displayName || user.email;
-    const photo = user.photoURL || "https://via.placeholder.com/40";
+
+    let name;
+
+    if (user.displayName && user.displayName.trim() !== "") {
+      name = user.displayName;
+    } else {
+      // fallback → extract name from email
+      name = user.email.split("@")[0];
+    }
+
+    const photo = user.photoURL || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvHkojGjpZnnvFrJ4TNtD28FIgn8DfiI2ymg&s";
 
     document.getElementById("userName").innerText = name;
     document.getElementById("profilePic").src = photo;
     document.getElementById("userEmail").innerText = user.email;
 
   } else {
-    // not logged in → go back
     window.location.href = "index.html";
   }
 });
+
+//Logout
+import { signOut } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+
+window.logout = () => {
+  signOut(auth)
+    .then(() => {
+      // redirect to login page
+      window.location.href = "index.html";
+    })
+    .catch((error) => {
+      alert(error.message);
+    });
+};
 
 //Profile dropdown 
 const profilePic = document.getElementById("profilePic");
@@ -46,3 +68,4 @@ document.addEventListener("click", (e) => {
     dropdown.classList.remove("show");
   }
 });
+
