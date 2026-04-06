@@ -139,6 +139,7 @@ body{
 
 .main_cnt_left{
     width: 70%;
+    padding: 2%;
 }
 
 .main_cnt_right{
@@ -213,12 +214,52 @@ body{
     border: 1px solid rgba(0, 0, 0, 0.116);
     border-radius: 10px;
     font-family: sans-serif;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 .achievements_cnt h1{
     font-weight: 100;
     color: rgba(0, 0, 0, 0.737);
+}
+
+.achievements_cnt p{
+    text-align: center;
+    padding-right: 10%;
+    color: rgba(0, 0, 0, 0.578);
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.learn_card{
+    background: white;
+    width: fit-content;
+    padding: 3%;
+    font-family: sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 10px;
+}
+
+.learn_card h2{
+    margin-top: 0;
+    color: rgba(10, 10, 10, 0.726);
+}
+
+.learn_card p{
+    margin-top: -10px;
+    font-size: 14px;
+}
+
+.learn_card a{
+    text-decoration: none;
+    color: white;
+    background: rgb(43, 43, 255);
+    padding: 1% 5%;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+}
+
+.learn_card a:hover{
+    background: rgb(95, 95, 255);
 }
 
 
