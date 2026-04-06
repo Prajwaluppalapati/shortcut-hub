@@ -1,3 +1,4 @@
+//Firebase config
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
 
 import { 
@@ -24,9 +25,24 @@ onAuthStateChanged(auth, (user) => {
 
     document.getElementById("userName").innerText = name;
     document.getElementById("profilePic").src = photo;
+    document.getElementById("userEmail").innerText = user.email;
 
   } else {
     // not logged in → go back
     window.location.href = "index.html";
+  }
+});
+
+//Profile dropdown 
+const profilePic = document.getElementById("profilePic");
+const dropdown = document.getElementById("profile_dropdown");
+
+profilePic.addEventListener("click", () => {
+  dropdown.classList.toggle("show");
+});
+
+document.addEventListener("click", (e) => {
+  if (!profilePic.contains(e.target) && !dropdown.contains(e.target)) {
+    dropdown.classList.remove("show");
   }
 });
