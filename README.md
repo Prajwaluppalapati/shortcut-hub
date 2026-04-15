@@ -35,3 +35,11 @@ To experience the website, open it in your browser and scroll through it to know
 
 # Future Improvements
 For the second ship am gonna go the main tool
+
+Links of lapse recordings:
+https://lapse.hackclub.com/timelapse/xo-rEiuA79Bq
+https://lapse.hackclub.com/timelapse/CVmI_jEwxGVu
+https://lapse.hackclub.com/timelapse/3wujKaiClGRM
+https://lapse.hackclub.com/timelapse/hKb5RsCM8vPn
+https://lapse.hackclub.com/timelapse/liCuqUD_7cX9
+https://lapse.hackclub.com/timelapse/FVo4MsHYpWqN
